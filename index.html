@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#location">Contact</a></li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <i class="fa fa-github" aria-hidden="true"></i>
@@ -36,19 +36,26 @@
     </div>
     <section id="aboutme">
         <div class="body">
-            <div class="img-wrapper">
-                <img src="./img/portfolio img.jpeg" alt="portrait">
+            <div class="lay-out">
+                <div class="img-wrapper">
+                    <img src="./img/portfolio img.jpeg" alt="portrait">
+                </div>
             </div>
-            <div class="text">
-                <p>
-                    Hello, <br>
-                    I am a website developer in Finland, and my professional skills as well as all my own information
-                    are revealed obviously in my portfolio. <br>
-                    Hope you feel enjoy my own projects and wishing can be one of part in your team.
-                </p>
+            <div class="lay-out">
+                <div class="text">
+                    <p>
+                        Hello, 
+                        <br>
+                        <br>
+                        I am a website developer in Finland, and my professional skills as well as all my own information
+                        are revealed obviously in my portfolio.
+                         <br>
+                         <br>
+                        Hope you feel enjoy my own projects and wishing can be one of part in your team.
+                    </p>
+                </div>
             </div>
         </div>
-
     </section>
 
     <section id="projects">
@@ -56,23 +63,31 @@
             <h2 class="title">All my own projects</h2>
         </div>
         <div class="body">
-            <div class="img-wrapper">
-                <img src="/img/travel.jpeg" alt="Iceland">
+            <div class="lay-out">
+                <div class="img-wrapper travel">
+                    <img src="./img/travel.jpeg" alt="travel">
+                </div>
             </div>
-            <div class="img-wrapper">
-                <img src="/img/restaurant.png" alt="restaurant">
+            <div class="lay-out">
+                <div class="img-wrapper restaurant">
+                    <img src="./img/restaurant.png" alt="restaurant">
+                </div>
             </div>
         </div>
     </section>
 
     <section id="location">
-        <div class ="title">
-            <h2>Current location</h2>
+        <div class="header">
+            <h2 class ="title">Current location</h2>
         </div>
         <div class="body">
-            <p class="text">Mariankatu 6B, 15110 Lahti</p>
-            <div class="img-wrapper">
-                <img src="/img/Screenshot 2021-03-31 at 14.36.48.png" alt="map">
+            <div class="lay-out textmap">
+                <p class="text">Mariankatu 6B, 15110 Lahti</p>
+            </div>
+            <div class="lay-out imgmap">
+                <div class="img-wrapper mapwrap">
+                    <img src="./img/Screenshot 2021-03-31 at 14.36.48.png" alt="map">
+                </div>
             </div>
         </div>
     </section>
@@ -88,7 +103,8 @@
         <div class="search-container">
             <form action="#">
               <input type="text" placeholder="Sending your email..." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <button type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+              </button>
             </form>
         </div>
     </footer>
