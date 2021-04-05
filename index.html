@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,13 +11,13 @@
 </head>
 
 <body>
+    <nav class="navigation navigation-pc">
 
-    <nav class="navigation">
         <ul class="nav-items nav-left">
             <li class="nav-item"><a class="nav-link" href="#">
                     <p class="logo">Tram Tran</p>
                 </a></li>
-           
+
         </ul>
 
         <ul class="nav-items nav-right">
@@ -37,7 +39,47 @@
                 </a>
             </li>
         </ul>
+
     </nav>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <nav class="navigation navigation-mobile">
+            <div>
+                <div>
+                    <ul class="nav-items nav-left">
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <p class="logo">Tram Tran</p>
+                            </a></li>
+
+                    </ul>
+
+                    <ul class="nav-items nav-right">
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#location">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
     <section class="section" id="aboutme">
         <div class="body">
             <div class="layout">
@@ -76,11 +118,11 @@
                 </div>
             </div>
 
-            
+
         </div>
     </section>
 
-    <section class="section"  id="location">
+    <section class="section" id="location">
         <div class="header">
             <h2 class="title">Current location</h2>
         </div>
